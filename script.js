@@ -1,5 +1,6 @@
 const calculate = () => {
-  let p = document.getElementById("principle").value;
+  // let p = document.getElementById("principle").value;
+  let p = document.getElementById("principal").value;
   let r = document.getElementById("rate").value;
   let t = document.getElementById("time").value;
   let simpleInterest = (p * r * t) / 100;
